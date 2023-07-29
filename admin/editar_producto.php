@@ -53,6 +53,11 @@ include("includes/header.php"); ?>
     <h1 class="h3 mb-0 text-gray-800"><?php echo isset($id_producto) ? 'Editar' : 'Nuevo'; ?> Producto</h1>
     <a href="productos.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-arrow-left fa-sm text-white-50"></i> Regresar</a>
 </div>
+<<<<<<< HEAD
+=======
+<!-- Content Row -->
+
+>>>>>>> 828ff8d (commit inicial - proyecto funcional)
 
 <div class="row">
     <div class="col-md-12">

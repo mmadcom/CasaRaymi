@@ -24,6 +24,10 @@ if (isset($_GET)) {
         else{
             header('Location: index.php');
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 828ff8d (commit inicial - proyecto funcional)
     }
 }
 ?>

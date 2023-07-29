@@ -134,6 +134,7 @@ right: 20px;
     background-color: #e2e6ea; /* Color de fondo del botón al pasar el cursor */
 }
 
+<<<<<<< HEAD
 /* Estilos para el pie de página */
 footer {
     background-color: #ffffff; /* Color de fondo del pie de página */
@@ -173,3 +174,5 @@ a.backToTopBtn {
     transition: 0.3s; /* Transición suave al pasar el cursor */
     z-index: 99; /* Para que el botón se muestre por encima de todo */
 }
+=======
+>>>>>>> 828ff8d (commit inicial - proyecto funcional)

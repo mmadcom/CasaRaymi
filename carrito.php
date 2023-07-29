@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php 
 require_once "config/conexion.php";
 require_once "config/config.php";
@@ -58,6 +59,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["realizar_pedido"])) {
     
 }
 
+=======
+<?php require_once "config/conexion.php";
+require_once "config/config.php";
+>>>>>>> 828ff8d (commit inicial - proyecto funcional)
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -67,7 +72,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["realizar_pedido"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
+<<<<<<< HEAD
     <title>Realizar pedido</title>
+=======
+    <title>Carrito de Compras</title>
+>>>>>>> 828ff8d (commit inicial - proyecto funcional)
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
@@ -75,6 +84,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["realizar_pedido"])) {
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="assets/css/styles.css" rel="stylesheet" />
     <link href="assets/css/estilos.css" rel="stylesheet" />
+<<<<<<< HEAD
 
 </head>
 
@@ -84,6 +94,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["realizar_pedido"])) {
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <img src="assets/img/logo1.png" alt="Logo" style="width: 140px;">
+=======
+</head>
+
+<body>
+    <!-- Navigation-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <img src="assets/img/logo.png" alt="Logo" style="width: 140px;">
+>>>>>>> 828ff8d (commit inicial - proyecto funcional)
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -109,6 +129,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["realizar_pedido"])) {
                         <li class="nav-item">
                             <a class="nav-link" href="admin/index.php">Login</a>
                         </li>
+<<<<<<< HEAD
                         <li class="nav-item">
                             <a class="nav-link" href="contactenos.php">
                                 <button style="background-color: #ff9900; color: #ffffff; border: none; padding: 10px 20px; border-radius: 5px; font-size: 16px; font-weight: bold;">
@@ -116,6 +137,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["realizar_pedido"])) {
                                 </button>
                             </a>
                         </li>
+=======
+>>>>>>> 828ff8d (commit inicial - proyecto funcional)
                     </ul>
                 </div>
             </div>
@@ -136,6 +159,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["realizar_pedido"])) {
                 <div class="col-md-12">
                     <div class="table-responsive">
                         <table class="table table-hover">
+<<<<<<< HEAD
                             <thead class="table-dark">
                                 <tr>
                                     <th>ID</th>
@@ -145,16 +169,37 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["realizar_pedido"])) {
                                     <th>Subtotal</th>
                                 </tr>
                             <tbody id="tblCarrito">
+=======
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Producto</th>
+                                    <th>Precio</th>
+                                    <th>Cantidad</th>
+                                    <th>Sub Total</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tblCarrito">
+
+>>>>>>> 828ff8d (commit inicial - proyecto funcional)
                             </tbody>
                         </table>
                     </div>
                 </div>
                 <div class="col-md-5 ms-auto">
                     <h4>Total a Pagar: <span id="total_pagar">0.00</span></h4>
+<<<<<<< HEAD
+=======
+                    <div class="d-grid gap-2">
+                        <div id="paypal-button-container"></div>
+                        <button class="btn btn-warning" type="button" id="btnVaciar">Vaciar Carrito</button>
+                    </div>
+>>>>>>> 828ff8d (commit inicial - proyecto funcional)
                 </div>
             </div>
         </div>
     </section>
+<<<<<<< HEAD
 
     <!-- Formulario para realizar el pedido -->
 
@@ -202,6 +247,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["realizar_pedido"])) {
         </div>
     </section>
 
+=======
+>>>>>>> 828ff8d (commit inicial - proyecto funcional)
     <!-- Footer-->
     <footer class="py-5 bg-dark">
         <div class="container">
@@ -215,6 +262,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["realizar_pedido"])) {
     <script src="https://www.paypal.com/sdk/js?client-id=<?php echo CLIENT_ID; ?>&locale=<?php echo LOCALE; ?>"></script>
     <script src="assets/js/scripts.js"></script>
     <script>
+<<<<<<< HEAD
 
 document.addEventListener("DOMContentLoaded", function () {
     // Mostrar carrito al cargar
@@ -227,6 +275,9 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelector("#total_pagar_input").value = totalPagar;
     });
 });
+=======
+        mostrarCarrito();
+>>>>>>> 828ff8d (commit inicial - proyecto funcional)
 
         function mostrarCarrito() {
             if (localStorage.getItem("productos") != null) {
@@ -285,11 +336,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     });
                 }
             }
+<<<<<<< HEAD
             
         }
         
         
         
+=======
+        }
+>>>>>>> 828ff8d (commit inicial - proyecto funcional)
     </script>
 </body>
 

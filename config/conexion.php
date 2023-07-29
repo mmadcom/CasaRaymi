@@ -2,7 +2,11 @@
     $host = "localhost";
     $user = "root";
     $clave = "";
+<<<<<<< HEAD
     $bd = "bd_raymi";
+=======
+    $bd = "bd_shuriken";
+>>>>>>> 828ff8d (commit inicial - proyecto funcional)
     $conexion = mysqli_connect($host,$user,$clave,$bd);
     if (mysqli_connect_errno()){
         echo "No se pudo conectar a la base de datos";

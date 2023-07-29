@@ -52,7 +52,10 @@ $(document).ready(function () {
         $('#tblCarrito').html('');
         $('#total_pagar').text('0.00');
     })
+<<<<<<< HEAD
     
+=======
+>>>>>>> 828ff8d (commit inicial - proyecto funcional)
     //categoria
     $('#abrirCategoria').click(function(){
         $('#categorias').modal('show');
@@ -67,7 +70,10 @@ $(document).ready(function () {
             this.submit();
         }
     })
+<<<<<<< HEAD
     
+=======
+>>>>>>> 828ff8d (commit inicial - proyecto funcional)
 });
 
 function mostrar(){
@@ -78,6 +84,7 @@ function mostrar(){
         }
     }
 }
+<<<<<<< HEAD
 
 // En scripts.js o en un archivo separado de JavaScript
 function realizarPedido() {
@@ -110,3 +117,5 @@ function realizarPedido() {
 
   
   
+=======
+>>>>>>> 828ff8d (commit inicial - proyecto funcional)
