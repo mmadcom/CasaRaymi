@@ -1,0 +1,175 @@
+.btn-flotante {
+font-size: 16px; /* Cambiar el tamaño de la tipografia */
+font-weight: bold; /* Fuente en negrita o bold */
+color: #ffffff; /* Color del texto */
+border-radius: 5px; /* Borde del boton */
+letter-spacing: 2px; /* Espacio entre letras */
+background-color: #6fe91e; /* Color de fondo */
+padding: 18px 30px; /* Relleno del boton */
+position: fixed;
+bottom: 40px;
+right: 40px;
+transition: all 300ms ease 0ms;
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+z-index: 99;
+text-decoration: none;
+}
+.btn-flotante:hover {
+background-color: #f70743;
+transform: translateY(-7px);
+}
+
+@media only screen and (max-width: 600px) {
+.btn-flotante {
+font-size: 14px;
+padding: 12px 20px;
+bottom: 20px;
+right: 20px;
+}
+}
+
+.btn-flotante {
+    font-size: 15px;
+    /* Cambiar el tamaño de la tipografia */
+    text-transform: uppercase;
+    /* Texto en mayusculas */
+    font-weight: bold;
+    /* Fuente en negrita o bold */
+    color: #ffffff;
+    /* Color del texto */
+    border-radius: 5px;
+    /* Borde del boton */
+    letter-spacing: 2px;
+    /* Espacio entre letras */
+    background-color: #ff2e63;
+    /* Color de fondo */
+    padding: 18px 30px;
+    /* Relleno del boton */
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    text-decoration: none !important;
+}
+.btn-flotante:hover{
+    background-color: #ff2e63;
+    /* Color de fondo al pasar el cursor */
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    transform: translateY(-7px);
+}
+.btn-flotante i{
+    margin-right: 10px;
+}
+.btn-flotante span{
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.logo-img {
+    max-width: 130px; /* Ajusta el valor según el tamaño deseado */
+    height: auto; /* Para mantener la proporción de la imagen */
+}
+
+
+
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #ffffff; /* Color de fondo de la barra */
+    padding: 10px 20px; /* Espaciado interno de la barra */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Tamaño del texto del logo */
+    color: #fff; /* Color del texto del logo */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px; /* Espaciado entre elementos de navegación */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem; /* Tamaño del texto de los enlaces */
+    color: #fff; /* Color del texto de los enlaces */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    transition: 0.3s; /* Transición suave al pasar el cursor */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fc; /* Color del texto al pasar el cursor */
+}
+
+/* Estilos para el enlace activo */
+.navbar-nav .nav-item.active .nav-link {
+    font-weight: bold; /* Texto en negrita para el enlace activo */
+}
+
+/* Estilos para el formulario de búsqueda */
+.form-inline {
+    display: inline-flex; /* Para alinear los elementos en una línea */
+}
+#searchForm input[type="text"]{
+    background-color: #f8f9fc; /* Color de fondo del campo de búsqueda */
+    border: none; /* Borde del campo de búsqueda */
+    border-radius: 3px; /* Borde curvo del campo de búsqueda */
+    padding: 3px; /* Espaciado interno del campo de búsqueda */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#searchForm button {
+    background-color: #f8f9fc; /* Color de fondo del botón */
+    border: none; /* Borde del botón */
+    border-radius: 3px; /* Borde curvo del botón */
+    padding: 3px; /* Espaciado interno del botón */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#searchForm button:hover {
+    background-color: #e2e6ea; /* Color de fondo del botón al pasar el cursor */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #ffffff; /* Color de fondo del pie de página */
+    padding: 20px 0; /* Espaciado interno */
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #f8f9fc; /* Color del texto del pie de página */
+}
+
+footer a:hover {
+    color: #e2e6ea; /* Color del texto del pie de página al pasar el cursor */
+}
+
+footer i {
+    font-size: 1.2rem; /* Tamaño de los íconos del pie de página */
+    margin-right: 15px; /* Espaciado entre íconos del pie de página */
+}
+
+/* Estilos para el botón de ir arriba */
+a.backToTopBtn {
+    position: fixed; /* Fijar en la ventana */
+    bottom: 20px; /* Espaciado desde abajo */
+    right: 20px; /* Espaciado desde la derecha */
+    width: 50px; /* Ancho del botón */
+    height: 50px; /* Alto del botón */
+    background-color: #ff2e63; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border-radius: 50%; /* Borde curvo del botón */
+    font-size: 1.5rem; /* Tamaño del texto del botón */
+    text-align: center; /* Alineación del texto */
+    line-height: 46px; /* Espaciado entre líneas del texto */
+    transition: 0.3s; /* Transición suave al pasar el cursor */
+    z-index: 99; /* Para que el botón se muestre por encima de todo */
+}
