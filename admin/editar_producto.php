@@ -54,10 +54,13 @@ include("includes/header.php"); ?>
     <a href="productos.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-arrow-left fa-sm text-white-50"></i> Regresar</a>
 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <!-- Content Row -->
 
 >>>>>>> 828ff8d (commit inicial - proyecto funcional)
+=======
+>>>>>>> ca1c3bf (actualizacion conexion.php)
 
 <div class="row">
     <div class="col-md-12">

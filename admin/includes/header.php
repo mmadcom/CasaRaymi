@@ -14,18 +14,24 @@ if (empty($_SESSION['id'])) {
     <meta name="author" content="">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <title>Casa Raymi</title>
 
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
 =======
     <title>Tienda Shuriken</title>
+=======
+    <title>Casa Raymi</title>
+>>>>>>> ca1c3bf (actualizacion conexion.php)
 
-    <!-- Custom fonts for this template-->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
+<<<<<<< HEAD
     <!-- Custom styles for this template-->
 >>>>>>> 828ff8d (commit inicial - proyecto funcional)
+=======
+>>>>>>> ca1c3bf (actualizacion conexion.php)
     <link href="../assets/css/estilos.css" rel="stylesheet">
     <link href="../assets/css/sb-admin-2.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
@@ -35,6 +41,7 @@ if (empty($_SESSION['id'])) {
 <body id="page-top">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div id="wrapper">
 
 =======
@@ -43,11 +50,16 @@ if (empty($_SESSION['id'])) {
 
         <!-- Sidebar -->
 >>>>>>> 828ff8d (commit inicial - proyecto funcional)
+=======
+    <div id="wrapper">
+
+>>>>>>> ca1c3bf (actualizacion conexion.php)
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
             <div class="sidebar-brand-icon">
+<<<<<<< HEAD
 <<<<<<< HEAD
                 <img class="logo-img" src="../assets/img/logo1.png">
             </div>
@@ -57,6 +69,11 @@ if (empty($_SESSION['id'])) {
             </div>
             <div class="sidebar-brand-text mx-3">Tienda <sup>Shuriken</sup></div>
 >>>>>>> 828ff8d (commit inicial - proyecto funcional)
+=======
+                <img class="logo-img" src="../assets/img/logo1.png">
+            </div>
+            <div class="sidebar-brand-text mx-3">Casa <sup>Raymi</sup></div>
+>>>>>>> ca1c3bf (actualizacion conexion.php)
             </a>
 
             <!-- Divider -->
@@ -95,6 +112,7 @@ if (empty($_SESSION['id'])) {
             </li>
             <li class="nav-item">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 <a class="nav-link" href="clientes.php">
                     <i class="fas fa-user"></i>
@@ -103,10 +121,13 @@ if (empty($_SESSION['id'])) {
             </li>
             <li class="nav-item">
 >>>>>>> 828ff8d (commit inicial - proyecto funcional)
+=======
+>>>>>>> ca1c3bf (actualizacion conexion.php)
                 <a class="nav-link" href="reportes.php">
                     <i class="fas fa-chart-bar"></i>
                     <span>Reportes</span></a>
             </li>
+<<<<<<< HEAD
 <<<<<<< HEAD
             
             <hr class="sidebar-divider d-none d-md-block">
@@ -118,23 +139,34 @@ if (empty($_SESSION['id'])) {
 
             <!-- Sidebar Toggler (Sidebar) -->
 >>>>>>> 828ff8d (commit inicial - proyecto funcional)
+=======
+            
+            <hr class="sidebar-divider d-none d-md-block">
+
+            
+>>>>>>> ca1c3bf (actualizacion conexion.php)
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
 
         </ul>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         <div id="content-wrapper" class="d-flex flex-column">
 
 =======
         <!-- End of Sidebar -->
+=======
+>>>>>>> ca1c3bf (actualizacion conexion.php)
 
-        <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
+<<<<<<< HEAD
             <!-- Main Content -->
 >>>>>>> 828ff8d (commit inicial - proyecto funcional)
+=======
+>>>>>>> ca1c3bf (actualizacion conexion.php)
             <div id="content">
 
                 <!-- Topbar -->
@@ -146,9 +178,12 @@ if (empty($_SESSION['id'])) {
                     </button>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     <!-- Topbar Navbar -->
 >>>>>>> 828ff8d (commit inicial - proyecto funcional)
+=======
+>>>>>>> ca1c3bf (actualizacion conexion.php)
                     <ul class="navbar-nav ml-auto">
 
                         <!-- Botón para ir a la interfaz del cliente -->
@@ -161,19 +196,27 @@ if (empty($_SESSION['id'])) {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                         
 =======
                         <!-- Nav Item - Search Dropdown (Visible Only XS) -->
 >>>>>>> 828ff8d (commit inicial - proyecto funcional)
+=======
+                        
+>>>>>>> ca1c3bf (actualizacion conexion.php)
                         <li class="nav-item dropdown no-arrow d-sm-none">
                             <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-search fa-fw"></i>
                             </a>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             
 =======
                             <!-- Dropdown - Messages -->
 >>>>>>> 828ff8d (commit inicial - proyecto funcional)
+=======
+                            
+>>>>>>> ca1c3bf (actualizacion conexion.php)
                             <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
                                 <form class="form-inline mr-auto w-100 navbar-search">
                                     <div class="input-group">
@@ -188,20 +231,28 @@ if (empty($_SESSION['id'])) {
                             </div>
                         </li>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         
 =======
                         <!-- Nav Item - User Information -->
 >>>>>>> 828ff8d (commit inicial - proyecto funcional)
+=======
+                        
+>>>>>>> ca1c3bf (actualizacion conexion.php)
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $_SESSION['nombre']; ?></span>
                                 <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
                             </a>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             
 =======
                             <!-- Dropdown - User Information -->
 >>>>>>> 828ff8d (commit inicial - proyecto funcional)
+=======
+                            
+>>>>>>> ca1c3bf (actualizacion conexion.php)
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
@@ -219,6 +270,7 @@ if (empty($_SESSION['id'])) {
 
                 </nav>
 <<<<<<< HEAD
+<<<<<<< HEAD
             
                 <div class="container-fluid">
 =======
@@ -229,4 +281,8 @@ if (empty($_SESSION['id'])) {
 
                     <!-- Page Heading -->
 >>>>>>> 828ff8d (commit inicial - proyecto funcional)
+=======
+            
+                <div class="container-fluid">
+>>>>>>> ca1c3bf (actualizacion conexion.php)
                     

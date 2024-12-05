@@ -2,6 +2,9 @@
 require_once "config/conexion.php";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca1c3bf (actualizacion conexion.php)
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($_POST['action'] == 'realizar_pedido') {
         $array = json_decode($_POST['data'], true);
@@ -21,8 +24,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
   }
 
+<<<<<<< HEAD
 =======
 >>>>>>> 828ff8d (commit inicial - proyecto funcional)
+=======
+>>>>>>> ca1c3bf (actualizacion conexion.php)
 if (isset($_POST)) {
     if ($_POST['action'] == 'buscar') {
         $array['datos'] = array();

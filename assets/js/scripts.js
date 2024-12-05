@@ -53,9 +53,13 @@ $(document).ready(function () {
         $('#total_pagar').text('0.00');
     })
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 >>>>>>> 828ff8d (commit inicial - proyecto funcional)
+=======
+    
+>>>>>>> ca1c3bf (actualizacion conexion.php)
     //categoria
     $('#abrirCategoria').click(function(){
         $('#categorias').modal('show');
@@ -71,9 +75,13 @@ $(document).ready(function () {
         }
     })
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 >>>>>>> 828ff8d (commit inicial - proyecto funcional)
+=======
+    
+>>>>>>> ca1c3bf (actualizacion conexion.php)
 });
 
 function mostrar(){
@@ -85,6 +93,9 @@ function mostrar(){
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ca1c3bf (actualizacion conexion.php)
 
 // En scripts.js o en un archivo separado de JavaScript
 function realizarPedido() {
@@ -117,5 +128,8 @@ function realizarPedido() {
 
   
   
+<<<<<<< HEAD
 =======
 >>>>>>> 828ff8d (commit inicial - proyecto funcional)
+=======
+>>>>>>> ca1c3bf (actualizacion conexion.php)
