@@ -24,13 +24,6 @@ if (isset($_GET)) {
         else{
             header('Location: index.php');
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 828ff8d (commit inicial - proyecto funcional)
-=======
->>>>>>> ca1c3bf (actualizacion conexion.php)
     }
 }
 ?>
