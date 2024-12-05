@@ -6,10 +6,10 @@ $password = getenv('MYSQLPASSWORD');  // Contraseña para la base de datos
 $dbname = getenv('MYSQLDATABASE');  // Nombre de la base de datos
 
 // Crear la conexión
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conexion = mysqli_connect($servername, $username, $password, $dbname);
 
 // Comprobar la conexión
-if (!$conn) {
+if (!$conexion) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
