@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ca1c3bf (actualizacion conexion.php)
 <?php
 require_once "../config/conexion.php";
 
@@ -40,25 +36,15 @@ if ($result instanceof mysqli_result) {
 
 include("includes/header.php");
 ?>
-<<<<<<< HEAD
-=======
->>>>>>> 828ff8d (commit inicial - proyecto funcional)
-=======
->>>>>>> ca1c3bf (actualizacion conexion.php)
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ca1c3bf (actualizacion conexion.php)
     <title>Pedidos</title>
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/estilos.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<<<<<<< HEAD
 </head>
 
 <body>
@@ -116,70 +102,3 @@ include("includes/header.php");
 </body>
 </html>
 <?php include("includes/footer.php"); ?>
-=======
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Usuarios</title>
-    <link rel="stylesheet" href="styles.css">
-=======
->>>>>>> ca1c3bf (actualizacion conexion.php)
-</head>
-
-<body>
-    <div class="container mt-4">
-        <h1>Lista de Pedidos</h1>
-        <table class="table table-hover">
-            <thead class="thead-dark">
-                <tr>
-                    <th>ID</th>
-                    <th>Nombre</th>
-                    <th>Apellido</th>
-                    <th>Correo</th>
-                    <th>Teléfono</th>
-                    <th>Dirección</th>
-                    <th>Tipo de Pago</th>
-                    <th>Total a Pagar</th>
-                    <th>Fecha</th>
-                    <th>Estado</th>
-                    <th>Acciones</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php foreach ($pedidos as $pedido) { ?>
-                    <tr>
-                        <td><?php echo $pedido['id_pedido']; ?></td>
-                        <td><?php echo $pedido['nombre']; ?></td>
-                        <td><?php echo $pedido['apellido']; ?></td>
-                        <td><?php echo $pedido['correo_electronico']; ?></td>
-                        <td><?php echo $pedido['telefono']; ?></td>
-                        <td><?php echo $pedido['direccion']; ?></td>
-                        <td><?php echo $pedido['tipo_pago']; ?></td>
-                        <td><?php echo $pedido['total_pagar']; ?></td>
-                        <td><?php echo $pedido['fecha_pedido']; ?></td>
-                        <td class="text-center <?php echo $pedido['estado'] === 'Entregado' ? 'bg-success text-white' : ($pedido['estado'] === 'Pendiente' ? 'bg-danger text-white' : 'bg-warning text-dark'); ?>">
-                            <?php echo $pedido['estado']; ?>
-                        </td>
-                        <td>
-                            <form action="pedidos.php" method="POST">
-                                <input type="hidden" name="pedido_id" value="<?php echo $pedido['id_pedido']; ?>">
-                                <div class="input-group">
-                                    <select name="estado_pedido" class="form-select">
-                                        <option value="Pendiente" <?php if ($pedido['estado'] == 'Pendiente') echo 'selected'; ?>>Pendiente</option>
-                                        <option value="Enviado" <?php if ($pedido['estado'] == 'Enviado') echo 'selected'; ?>>Enviado</option>
-                                        <option value="Entregado" <?php if ($pedido['estado'] == 'Entregado') echo 'selected'; ?>>Entregado</option>
-                                    </select>
-                                    <button type="submit" class="btn btn-primary btn-sm mx-1">Actualizar</button>
-                                </div>
-                            </form>
-                        </td>
-                    </tr>
-                <?php } ?>
-            </tbody>
-        </table>
-    </div>
-</body>
-</html>
-<<<<<<< HEAD
->>>>>>> 828ff8d (commit inicial - proyecto funcional)
-=======
-<?php include("includes/footer.php"); ?>
->>>>>>> ca1c3bf (actualizacion conexion.php)

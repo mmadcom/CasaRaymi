@@ -7,15 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-<<<<<<< HEAD
-<<<<<<< HEAD
     <title>Casa Raymi</title>
-=======
-    <title>Shuriken Tacna</title>
->>>>>>> 828ff8d (commit inicial - proyecto funcional)
-=======
-    <title>Casa Raymi</title>
->>>>>>> ca1c3bf (actualizacion conexion.php)
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
@@ -31,15 +23,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-<<<<<<< HEAD
-<<<<<<< HEAD
                 <img src="assets/img/logo1.png" alt="Logo" style="width: 140px;">
-=======
-                <img src="assets/img/logo.png" alt="Logo" style="width: 140px;">
->>>>>>> 828ff8d (commit inicial - proyecto funcional)
-=======
-                <img src="assets/img/logo1.png" alt="Logo" style="width: 140px;">
->>>>>>> ca1c3bf (actualizacion conexion.php)
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -65,10 +49,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="admin/index.php">Login</a>
                         </li>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ca1c3bf (actualizacion conexion.php)
                         <li class="nav-item">
                             <a class="nav-link" href="contactenos.php">
                                 <button style="background-color: #ff9900; color: #ffffff; border: none; padding: 10px 20px; border-radius: 5px; font-size: 16px; font-weight: bold;">
@@ -76,12 +56,6 @@
                                 </button>
                             </a>
                         </li>
-<<<<<<< HEAD
-=======
-
->>>>>>> 828ff8d (commit inicial - proyecto funcional)
-=======
->>>>>>> ca1c3bf (actualizacion conexion.php)
 
 
                     </ul>
@@ -178,15 +152,7 @@
     <!-- Footer-->
     <footer class="py-5 bg-dark">
         <div class="container">
-<<<<<<< HEAD
-<<<<<<< HEAD
             <p class="m-0 text-center text-white">Copyright &copy;  Derechos reservados para GRUPO 02    TACNA-2024</p>
-=======
-            <p class="m-0 text-center text-white">Copyright &copy; Derechos reservados para GRUPO 12 3ER AÑO ESIS 2023</p>
->>>>>>> 828ff8d (commit inicial - proyecto funcional)
-=======
-            <p class="m-0 text-center text-white">Copyright &copy;  Derechos reservados para GRUPO 02    TACNA-2024</p>
->>>>>>> ca1c3bf (actualizacion conexion.php)
         </div>
     </footer>
     <!-- Bootstrap core JS-->
